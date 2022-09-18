@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.0.30",
+    "@tailvue/nuxt": "^0.1.61",
+    "@types/axios": "^0.14.0",
+    "nuxt": "^3.0.0-rc.1",
+    "nuxt-windicss": "^2.2.2",
+    "unplugin-icons": "^0.13.0"
+  },
+  "dependencies": {
+    "@vue-leaflet/vue-leaflet": "^0.6.1",
+    "@vueuse/core": "^7.6.2",
+    "axios": "^0.27.2",
+    "leaflet": "^1.8.0",
+    "motion": "^10.7.2"
+  }
+}
