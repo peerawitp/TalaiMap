@@ -12,7 +12,7 @@ const toggleDark = useToggle(isDark)
 const navBlobClass = computed(() => {
   switch (route.name) {
     case 'index':
-      return 'bg-red-200 dark:bg-red-500 left-2'
+      return 'bg-green-200 dark:bg-green-400 left-2'
   }
 })
 
