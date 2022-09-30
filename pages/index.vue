@@ -11,5 +11,7 @@ setMeta('Talai Map')
 </script>
 
 <template>
-  <Map></Map>
+  <div class="wrapper">
+    <Map />
+  </div>
 </template>
