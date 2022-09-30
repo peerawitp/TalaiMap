@@ -20,7 +20,13 @@ const center = [13.8485, 100.5725]
 </script>
 
 <template>
-  <l-map style="height: 100vh" :zoom="zoom" :center="center">
+  <l-map
+    style="height: 100vh"
+    :zoom="zoom"
+    :center="center"
+    :zoomAnimation="true"
+    :markerZoomAnimation="true"
+  >
     <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
     <l-marker
       v-for="item in busStop"
