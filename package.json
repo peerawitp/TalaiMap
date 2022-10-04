@@ -7,10 +7,10 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.0.30",
+    "@nuxtjs/tailwindcss": "^5.3.3",
     "@types/axios": "^0.14.0",
     "daisyui": "^2.31.0",
     "nuxt": "^3.0.0-rc.1",
-    "nuxt-windicss": "^2.2.2",
     "unplugin-icons": "^0.13.0"
   },
   "dependencies": {
