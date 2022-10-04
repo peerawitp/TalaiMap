@@ -3,3 +3,21 @@
 .leaflet-popup-content {
   font-family: 'Noto Sans Thai', sans-serif;
 }
+
+.menu-bar {
+  font-family: 'Noto Sans Thai', sans-serif;
+  display: flex;
+  z-index: 999;
+}
+
+.modal-view {
+  font-family: 'Noto Sans Thai', sans-serif;
+  z-index: 9999;
+}
+
+.map-view {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}

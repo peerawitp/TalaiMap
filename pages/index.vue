@@ -12,6 +12,7 @@ setMeta('Talai Map')
 
 <template>
   <div class="wrapper">
+    <MenuBar />
     <Map />
   </div>
 </template>

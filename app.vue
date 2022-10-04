@@ -7,6 +7,6 @@ setMeta('Talai Map')
 
 <template>
   <Html lang="en-US" data-theme="emerald">
-    <NuxtPage class="z-10" />
+    <NuxtPage />
   </Html>
 </template>
