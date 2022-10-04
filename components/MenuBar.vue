@@ -42,6 +42,7 @@ import IconInformation from '~icons/mdi/information'
       <div class="navbar-end"></div>
     </div>
   </div>
+
   <div class="modal-view">
     <input type="checkbox" id="modal-track" class="modal-toggle" />
     <div class="modal">
@@ -117,6 +118,24 @@ import IconInformation from '~icons/mdi/information'
         >
         <h3 class="text-lg font-bold">📣 แจ้งปัญหา</h3>
         <p class="py-4">Coming soon :)</p>
+      </div>
+    </div>
+
+    <input type="checkbox" id="modal-project-info" class="modal-toggle" />
+    <div class="modal">
+      <div class="modal-box relative">
+        <label
+          for="modal-project-info"
+          class="btn btn-sm btn-circle absolute right-2 top-2"
+          >✕</label
+        >
+        <h3 class="text-lg font-bold">📝 เกี่ยวกับ Project</h3>
+        <p class="py-4 indent-4">
+          เว็บแอปพลิเคชันนี้จัดทำขึ้นเพื่อเสนอในประเด็นโครงงานเรื่อง
+          <b>การพัฒนาเว็บแอปพลิเคชันเพื่อการติดตามรถตะลัยแบบเรียลไทม์</b>
+          ของกลุ่มที่ <b>32-6</b> ในรายวิชา 01999111 ศาสตร์แห่งแผ่นดิน หมู่ 32
+          ปีการศึกษา 2565
+        </p>
       </div>
     </div>
   </div>
