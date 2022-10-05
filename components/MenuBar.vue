@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import IconMenu from '~icons/mdi/menu'
+import IconGitHub from '~icons/mdi/github'
 import IconBusSide from '~icons/mdi/bus-side'
 import IconReport from '~icons/mdi/phone-alert'
 import IconInformation from '~icons/mdi/information'
@@ -39,7 +40,15 @@ import IconInformation from '~icons/mdi/information'
       <div class="navbar-center">
         <a class="normal-case text-xl">ตะลัยแมพ ( Talai Map )</a>
       </div>
-      <div class="navbar-end"></div>
+      <div class="navbar-end">
+        <a
+          href="https://github.com/peerawitp/TalaiMap"
+          target="_blank"
+          class="btn btn-ghost btn-circle"
+        >
+          <IconGitHub style="font-size: 1.5em" />
+        </a>
+      </div>
     </div>
   </div>
 
